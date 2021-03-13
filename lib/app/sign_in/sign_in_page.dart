@@ -6,6 +6,7 @@ class SignInPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Pomodoro Timer'),
+        centerTitle: true,
       ),
     );
   }
