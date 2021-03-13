@@ -7,7 +7,7 @@ class SignInPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Pomodoro Timer'),
         centerTitle: true,
-      ),
-    );
+        elevation: 2.0,
+      ),    );
   }
 }
