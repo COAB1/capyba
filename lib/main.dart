@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Capyba App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.red,
       ),
       home: SignInPage(),
     );
