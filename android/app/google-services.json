@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "948143484057",
+    "project_id": "capyba-app-ab240",
+    "storage_bucket": "capyba-app-ab240.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948143484057:android:876b4e3d517a8fbf5d9c08",
+        "android_client_info": {
+          "package_name": "com.example.capyba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948143484057-pbppbl978ed49sadd95k5g50tf4dqkcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capyba",
+            "certificate_hash": "5d88e1fa4be660d1cb35f3b7216a0856fcb3215f"
+          }
+        },
+        {
+          "client_id": "948143484057-t7et24b84lf4r5p3hrih5ka1p76820jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo2nljSs8KjljDNBmNxZ8N9jDT26obPWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948143484057-t7et24b84lf4r5p3hrih5ka1p76820jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
