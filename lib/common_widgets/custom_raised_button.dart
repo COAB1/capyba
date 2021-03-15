@@ -9,7 +9,7 @@ class CustomRaisedButton extends StatelessWidget {
     this.borderRadius: 4.0,
     this.height: 50.0,
     this.onPressed,
-  });
+  }) : assert(borderRadius != null);
 
   final Widget child;
   final Color color;
