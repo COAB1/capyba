@@ -1,3 +1,6 @@
+import 'package:capyba/app/sign_in/sign_in_button.dart';
+import 'package:capyba/app/sign_in/social_sign_in_button.dart';
+import 'package:capyba/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatelessWidget {
@@ -29,21 +32,19 @@ class SignInPage extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
-          SizedBox(height: 8.0),
-          ElevatedButton(
-            child: Text(
-              'Sign in with Google',
-              style: TextStyle(
-                fontSize: 15.0,
-                color: Colors.black87,
-              ),
-            ),
-            style: ElevatedButton.styleFrom(
-              primary: Colors.white,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.all(Radius.circular(4.0)),
-              ),
-            ),
+          SizedBox(height: 40.0),
+          SocialSignInButton(
+            assetName: 'images/google-logo.png',
+            text: 'Sign in with Google',
+            textColor: Colors.black87,
+            color: Colors.white,
+            onPressed: () {},
+          ),
+          SizedBox(height: 10.0),
+          SignInButton(
+            text: 'Sign in with email',
+            textColor: Colors.white,
+            color: Colors.teal[700],
             onPressed: () {},
           ),
         ],
