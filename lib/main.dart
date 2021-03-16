@@ -1,6 +1,6 @@
+import 'package:capyba/landing_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:capyba/app/sign_in/sign_in_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: SignInPage(),
+      home: LandingPage(),
     );
   }
 }
